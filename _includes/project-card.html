@@ -1,6 +1,8 @@
 <article class="project-card">
   {% if project.image and project.image != "" %}
-    <img class="project-image" src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" width="960" height="540" loading="lazy">
+    <div class="project-media">
+      <img class="project-image" src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" width="{{ project.image_width | default: 960 }}" height="{{ project.image_height | default: 540 }}" loading="lazy" decoding="async">
+    </div>
   {% else %}
     <div class="project-image" role="img" aria-label="Image placeholder for {{ project.title | escape }}">
       <span class="image-placeholder-label">Image placeholder · add approved media</span>

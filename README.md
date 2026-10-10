@@ -22,7 +22,7 @@ This is a user site, so `_config.yml` intentionally sets `baseurl: ""`. Site lin
 - The visual direction is inspired by the Oakland A’s colors: deep pine green, subdued gold, and a minimal single-column layout. No team logo or borrowed artwork is used.
 - In `contact.md`, update the `contact` fields to add approved résumé or project links. Keep `show_email: false` unless you explicitly decide to publish an email link. To enable a public email, fill in `email` and set `show_email: true`. A `mailto` link makes the address public and requires visitors to have an email app. Update the Contact page’s Markdown copy at the same time.
 - Any résumé file placed in `assets/` is public. The uploaded résumé is not published because it includes private contact details. A future public version can be placed in `assets/files/` and linked through `resume_url`.
-- `work.md` has a `projects` list in YAML front matter. Edit each project’s `synopsis`, `role`, `image`, `image_alt`, `url`, and `link_label`. Put approved images under `assets/images/` and use paths such as `/assets/images/anthem.jpg`. Missing values appear as clearly marked placeholders. Do not use `attached_assets/` directly because those source files are excluded from the published site.
+- `work.md` has a `projects` list in YAML front matter. Edit each project’s `synopsis`, `role`, `image`, `image_alt`, `image_width`, `image_height`, `url`, and `link_label`. Put approved images under `assets/images/` and use paths such as `/assets/images/anthem.jpeg`. Set the width and height to the image’s intrinsic dimensions; responsive frames preserve the complete artwork. Missing values appear as clearly marked placeholders. Do not use `attached_assets/` directly because those source files are excluded from the published site.
 - `PLAN.md` records the approved build plan and is excluded from the public site.
 
 ## Preview locally
@@ -46,7 +46,7 @@ Check the layout at both **375px** and **1280px** widths. The site is single-col
 
 ### Verified results
 
-Local Chromium mobile Lighthouse audits returned the following scores:
+Local Chromium mobile Lighthouse audits of the initial layout, before the project images were added, returned the following scores:
 
 | Page | Performance | Accessibility | Best Practices | SEO |
 | --- | ---: | ---: | ---: | ---: |
@@ -62,5 +62,5 @@ All four pages were checked at 375px and 1280px with no horizontal overflow. Loc
 - Jekyll and the `github-pages` gem match GitHub Pages’ supported build environment; `jekyll-sitemap` generates the sitemap.
 - The GitHub username is exactly `akintundeaahmad`, as supplied.
 - Where the résumé and portfolio text differ, the portfolio text takes priority—particularly Ade Dehye’s February 2021 founding date.
-- No headshot, project image, approved ServiceNow case-study detail, public résumé, or project website URL was supplied. These remain explicit placeholders rather than fabricated content.
+- Uploaded images are matched to all five film and audio project cards. No headshot, approved ServiceNow case-study detail, public résumé, or project website URL was supplied. Missing details remain explicit placeholders rather than fabricated content.
 
