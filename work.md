@@ -13,42 +13,52 @@ projects:
     type: Documentary film · Hulu
     synopsis: ""
     role: Associate producer
-    image: ""
-    image_alt: ""
-    url: https://www.hulu.com/movie/anthem-6b25fac9-da2b-45a3-8e09-e4156b0471cc
-    link_label: Watch Anthem on Hulu
+    image: /assets/images/anthem.jpeg
+    image_alt: Anthem documentary title over a dark audio mixing console.
+    image_width: 299
+    image_height: 168
+    url: ""
+    link_label: Viewing
   - title: "Revolutionary Care: An Oakland Story"
     type: Storytelling
     synopsis: Exploring sickle-cell disease and care in Oakland.
     role: Reporting, interviews, scripting, story development, and narration
-    image: ""
-    image_alt: ""
-    url: https://give.ucsfbenioffchildrens.org/stories/revolutionary-care-oakland-story-podcast
-    link_label: Listen to Revolutionary Care
+    image: /assets/images/revolutionary-care.jpeg
+    image_alt: "Revolutionary Care: An Oakland Story artwork with colorful buildings, trees, and a steel bridge."
+    image_width: 640
+    image_height: 640
+    url: ""
+    link_label: Viewing or listening
   - title: Viewers Like Us
     type: Audio / investigative reporting
     synopsis: Examining diversity and representation in public television.
     role: Investigative reporting and co-hosting
-    image: ""
-    image_alt: ""
-    url: https://viewerslikeus.com/
-    link_label: Explore Viewers Like Us
+    image: /assets/images/viewers-like-us.png
+    image_alt: Viewers Like Us artwork with a yellow eye, a red question mark, and orange-red title lettering.
+    image_width: 380
+    image_height: 368
+    url: ""
+    link_label: Listening
   - title: A Right To Heal
     type: Investigative journalism
     synopsis: ""
     role: Investigative journalism and hosting
-    image: ""
-    image_alt: ""
-    url: https://podcasts.apple.com/us/podcast/a-right-to-heal/id1707626036
-    link_label: Listen to A Right To Heal
+    image: /assets/images/a-right-to-heal.jpeg
+    image_alt: A Right To Heal podcast artwork with white and yellow title lettering over a blue-green grid.
+    image_width: 225
+    image_height: 225
+    url: ""
+    link_label: Viewing or listening
   - title: Hear Us Out
     type: Documentary thesis film
     synopsis: Documentary thesis film completed at Columbia Journalism School.
     role: ""
-    image: ""
-    image_alt: ""
-    url: "https://vimeo.com/378389873/f68ff036ba?fl=pl&fe=vl"
-    link_label: Watch Hear Us Out on Vimeo
+    image: /assets/images/hear-us-out.jpeg
+    image_alt: Hear Us Out Docfest artwork showing a group standing together on a stage at the Columbia Doc Program.
+    image_width: 1210
+    image_height: 710
+    url: ""
+    link_label: Viewing
 ---
 
 ## ESO Ventures
