@@ -14,15 +14,15 @@ selected_work:
   - title: Kinfolx
     category: Hospitality
     description: A coffee shop, wine bar, and community gathering place in Oakland.
-    url: /work/#kinfolx
+    url: https://kinfolxoakland.com/
   - title: Ade Dehye
     category: Sustainable fashion
     description: West African craftsmanship, cultural expression, and sustainable production.
-    url: /work/#ade-dehye
+    url: https://adedehye.com/
   - title: ESO Ventures
     category: Entrepreneurship
     description: Marketing that connects entrepreneurs with the support to build.
-    url: /work/#eso-ventures
+    url: https://eso-ventures.com/
 ---
 
 I work across marketing, entrepreneurship, hospitality, sustainable fashion, and documentary storytelling. Across my projects, I combine creative judgment with business strategy to help organizations communicate their value, reach audiences, and build lasting relationships.

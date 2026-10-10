@@ -25,7 +25,7 @@ layout: default
   </div>
   <div class="work-preview-grid">
     {% for item in page.selected_work %}
-      <a class="work-preview" href="{{ item.url | relative_url }}">
+      <a class="work-preview" {% include link-attributes.html url=item.url %}>
         <span class="preview-number">{{ forloop.index | prepend: "0" }} / {{ item.category | escape }}</span>
         <span class="preview-copy"><span class="preview-title">{{ item.title | escape }}</span><span class="preview-detail">{{ item.description | escape }}</span></span>
         <span class="preview-arrow" aria-hidden="true">↗</span>

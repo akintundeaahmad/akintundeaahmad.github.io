@@ -1,0 +1,1 @@
+{% assign link_prefix = include.url | slice: 0, 2 %}{% if include.url contains '://' or link_prefix == '//' %}href="{{ include.url | escape }}" target="_blank" rel="noopener noreferrer"{% else %}href="{{ include.url | relative_url | escape }}"{% endif %}

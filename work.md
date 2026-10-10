@@ -17,8 +17,8 @@ projects:
     image_alt: Anthem documentary title over a dark audio mixing console.
     image_width: 299
     image_height: 168
-    url: ""
-    link_label: Viewing
+    url: https://www.hulu.com/movie/anthem-6b25fac9-da2b-45a3-8e09-e4156b0471cc
+    link_label: Watch Anthem on Hulu
   - title: "Revolutionary Care: An Oakland Story"
     type: Storytelling
     synopsis: Exploring sickle-cell disease and care in Oakland.
@@ -27,8 +27,8 @@ projects:
     image_alt: "Revolutionary Care: An Oakland Story artwork with colorful buildings, trees, and a steel bridge."
     image_width: 640
     image_height: 640
-    url: ""
-    link_label: Viewing or listening
+    url: https://give.ucsfbenioffchildrens.org/stories/revolutionary-care-oakland-story-podcast
+    link_label: Listen to Revolutionary Care
   - title: Viewers Like Us
     type: Audio / investigative reporting
     synopsis: Examining diversity and representation in public television.
@@ -37,8 +37,8 @@ projects:
     image_alt: Viewers Like Us artwork with a yellow eye, a red question mark, and orange-red title lettering.
     image_width: 380
     image_height: 368
-    url: ""
-    link_label: Listening
+    url: https://viewerslikeus.com/
+    link_label: Explore Viewers Like Us
   - title: A Right To Heal
     type: Investigative journalism
     synopsis: ""
@@ -47,8 +47,8 @@ projects:
     image_alt: A Right To Heal podcast artwork with white and yellow title lettering over a blue-green grid.
     image_width: 225
     image_height: 225
-    url: ""
-    link_label: Viewing or listening
+    url: https://podcasts.apple.com/us/podcast/a-right-to-heal/id1707626036
+    link_label: Listen to A Right To Heal
   - title: Hear Us Out
     type: Documentary thesis film
     synopsis: Documentary thesis film completed at Columbia Journalism School.
@@ -57,14 +57,14 @@ projects:
     image_alt: Hear Us Out Docfest artwork showing a group standing together on a stage at the Columbia Doc Program.
     image_width: 1210
     image_height: 710
-    url: ""
-    link_label: Viewing
+    url: https://vimeo.com/378389873/f68ff036ba?fl=pl&fe=vl
+    link_label: Watch Hear Us Out on Vimeo
 ---
 
-## ESO Ventures
+## [ESO Ventures](https://eso-ventures.com/){: target="_blank" rel="noopener noreferrer"}
 {: #eso-ventures}
 
-**Senior Marketing & Communications Manager**  
+**[Senior Marketing & Communications Manager](https://eso-ventures.com/){: target="_blank" rel="noopener noreferrer"}**  
 February 2023–present · Transitioned to a contractor role in August 2025
 
 ESO Ventures builds entrepreneurial infrastructure for underinvested founders, particularly Black, Latino, and system-impacted entrepreneurs. Its model combines business incubators, access to capital, business support services, and an ongoing entrepreneurial community.
@@ -79,10 +79,10 @@ Selected contributions:
 - Created newsletters, social content, and impact stories for entrepreneur and institutional audiences.
 - Developed partner interview and video concepts to communicate the value of local investment in entrepreneurship.
 
-## Kinfolx
+## [Kinfolx](https://kinfolxoakland.com/){: target="_blank" rel="noopener noreferrer"}
 {: #kinfolx}
 
-**Co-Founder**  
+**[Co-Founder](https://kinfolxoakland.com/){: target="_blank" rel="noopener noreferrer"}**  
 Oakland, California · Opened in 2022
 
 Kinfolx is a coffee shop, wine bar, and community gathering space in Uptown Oakland. We created it as a place where hospitality, culture, and connection come together.
@@ -93,10 +93,10 @@ My work includes brand building, community partnerships, event programming, prom
 
 Kinfolx reflects my belief that a business can be commercially successful while contributing meaningfully to the place it calls home.
 
-## Ade Dehye
+## [Ade Dehye](https://adedehye.com/){: target="_blank" rel="noopener noreferrer"}
 {: #ade-dehye}
 
-**Founder & CEO**  
+**[Founder & CEO](https://adedehye.com/){: target="_blank" rel="noopener noreferrer"}**  
 Founded February 2021 · Production in Accra, Ghana
 
 Ade Dehye is a fashion brand rooted in West African craftsmanship, cultural expression, and sustainable production.
@@ -112,10 +112,10 @@ Selected highlights:
 
 The venture has given me practical experience bringing products to market, managing production, developing a differentiated brand, and balancing commercial goals with social and environmental commitments.
 
-## ServiceNow
+## [ServiceNow](https://www.servicenow.com/){: target="_blank" rel="noopener noreferrer"}
 {: #servicenow}
 
-**Product & Solution Marketing MBA Intern**  
+**[Product & Solution Marketing MBA Intern](https://www.servicenow.com/){: target="_blank" rel="noopener noreferrer"}**  
 Summer 2026
 
 My experience at ServiceNow expanded my background into enterprise technology marketing, complementing my work building consumer brands and communicating the value of entrepreneurial programs.
@@ -124,20 +124,20 @@ My experience at ServiceNow expanded my background into enterprise technology ma
 
 My journalism examines education, economic inequality, justice, and whose perspectives shape public narratives. My work has appeared in *The Atlantic*, *The Guardian*, *The Appeal*, and *Columbia Journalism Review*.
 
-### Proximity Media
+### [Proximity Media](https://www.proximitymedia.com/){: target="_blank" rel="noopener noreferrer"}
 
-**Documentary Production · 2020–2022**
+**[Documentary Production · 2020–2022](https://www.proximitymedia.com/){: target="_blank" rel="noopener noreferrer"}**
 
 At Ryan Coogler’s production company, I worked on documentary research, story development, interviews, and production coordination across multiple states. My credits include associate producer on *Anthem*, a documentary released on Hulu.
 
-### Columbia Journalism Review
+### [Columbia Journalism Review](https://www.cjr.org/){: target="_blank" rel="noopener noreferrer"}
 
-**Delacorte Fellow · 2019–2020**
+**[Delacorte Fellow · 2019–2020](https://www.cjr.org/){: target="_blank" rel="noopener noreferrer"}**
 
 I reported on media criticism, journalism ethics, power, and accountability. I also contributed to newsletters and digital audience development, using A/B testing to improve newsletter open rates.
 
-### Type Investigations
+### [Type Investigations](https://typeinvestigations.org/){: target="_blank" rel="noopener noreferrer"}
 
-**Ida B. Wells Fellow**
+**[Ida B. Wells Fellow](https://typeinvestigations.org/){: target="_blank" rel="noopener noreferrer"}**
 
 My investigative reporting explored systemic inequality and public accountability, including reporting on policing in Oakland.

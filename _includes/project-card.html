@@ -1,17 +1,14 @@
 <article class="project-card">
   {% if project.image and project.image != "" %}
     <div class="project-media">
+      {% if project.url and project.url != "" %}<a class="project-image-link" {% include link-attributes.html url=project.url %} aria-label="{{ project.link_label | escape }}">{% endif %}
       <img class="project-image" src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" width="{{ project.image_width | default: 960 }}" height="{{ project.image_height | default: 540 }}" loading="lazy" decoding="async">
-    </div>
-  {% else %}
-    <div class="project-image" role="img" aria-label="Image placeholder for {{ project.title | escape }}">
-      <span class="image-placeholder-label">Image placeholder · add approved media</span>
-      <span class="image-index">{{ forloop.index | prepend: "0" }}</span>
+      {% if project.url and project.url != "" %}</a>{% endif %}
     </div>
   {% endif %}
   <div class="project-card-copy">
     <p class="project-type">{{ project.type | escape }}</p>
-    <h3>{{ project.title | escape }}</h3>
+    <h3>{% if project.url and project.url != "" %}<a class="title-link" {% include link-attributes.html url=project.url %}>{{ project.title | escape }}</a>{% else %}{{ project.title | escape }}{% endif %}</h3>
     {% if project.synopsis and project.synopsis != "" %}
       <p>{{ project.synopsis | escape }}</p>
     {% endif %}
