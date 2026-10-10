@@ -8,8 +8,8 @@ Create a static, GitHub Pages user site for `akintundeaahmad.github.io`, publish
 
 - **Home:** Introduce Akintunde Ahmad as an entrepreneur, marketer, and storyteller, with clear paths to selected work and contact.
 - **About:** Present the supplied biography, capabilities, and education.
-- **Work Experience:** Organize the supplied experience across ESO Ventures, Kinfolx, Ade Dehye, ServiceNow, and journalism/documentary work. Include individual media-project cards and an editable ServiceNow case-study placeholder.
-- **Contact:** Provide editable LinkedIn, email, résumé, and project-link fields. Do not publish an email link or the uploaded résumé by default: the résumé contains a phone number and email address, and the user declined a public email link. Use clear placeholders for missing links and contact details.
+- **Work Experience:** Organize the supplied experience across ESO Ventures, Kinfolx, Ade Dehye, ServiceNow, and journalism/documentary work. Include individual media-project cards. Display a ServiceNow case study only when approved content is supplied.
+- **Contact:** Provide editable LinkedIn, email, résumé, and project-link fields. Do not publish an email link or the uploaded résumé by default: the résumé contains a phone number and email address, and the user declined a public email link. Omit unconfigured fields from public output.
 
 Use the supplied portfolio text and résumé without inventing achievements or outcomes. Where the supplied material differs, prefer the portfolio text and retain specific résumé metrics only when they do not conflict. Leave image, synopsis, role, and viewing/listening-link fields editable for project cards.
 
@@ -24,7 +24,7 @@ Keep the complete site directly in the repository root: `_config.yml`, `index.md
 ## Technical choices and assumptions
 
 - Favor GitHub Pages' built-in Jekyll support so publishing from `main` and `/` needs no custom build workflow.
-- Keep contact and project URLs in editable Markdown/front-matter content; use explicit placeholders until details or approved media are supplied.
+- Keep contact and project URLs in editable Markdown/front-matter content; hide unconfigured fields until details or approved media are supplied.
 - Avoid external fonts and scripts so the site remains lightweight and avoids unnecessary third-party requests.
 - The current repository contains a Replit starter workspace and API/design artifacts rather than a Jekyll site. Implementing this plan means replacing that scaffold so the root contains only the static portfolio site and its source assets. Preserve the uploaded résumé as a source/reference, but do not publish it unless a version without private contact details is approved.
 

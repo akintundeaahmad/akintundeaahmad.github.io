@@ -8,36 +8,29 @@ layout: default
     <div class="contact-note">{{ content }}</div>
     {% if page.contact.linkedin_url and page.contact.linkedin_url != "" %}
       <a class="button-link" href="{{ page.contact.linkedin_url }}" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
-    {% else %}
-      <span class="placeholder-link">LinkedIn link placeholder · to be added</span>
     {% endif %}
   </div>
   <div class="contact-fields">
-    <div class="contact-field">
-      <span class="field-label">Professional email</span>
-      {% if page.contact.show_email and page.contact.email != "" %}
-        <a class="field-value" href="mailto:{{ page.contact.email | escape }}">{{ page.contact.email | escape }}</a>
-      {% else %}
-        <span class="field-value">Not publicly listed</span>
-      {% endif %}
-    </div>
-    <div class="contact-field">
-      <span class="field-label">Résumé</span>
-      {% if page.contact.resume_url and page.contact.resume_url != "" %}
-        <a class="field-value" href="{{ page.contact.resume_url | relative_url }}">View résumé <span aria-hidden="true">↗</span></a>
-      {% else %}
-        <span class="field-value field-placeholder">Résumé link placeholder · to be added</span>
-      {% endif %}
-    </div>
-    {% for project in page.contact.project_links %}
+    {% if page.contact.show_email and page.contact.email and page.contact.email != "" %}
       <div class="contact-field">
-        <span class="field-label">{{ project.label | escape }}</span>
-        {% if project.url and project.url != "" %}
-          <a class="field-value" href="{{ project.url }}" target="_blank" rel="noopener noreferrer">Visit project <span aria-hidden="true">↗</span></a>
-        {% else %}
-          <span class="field-value field-placeholder">Project link placeholder · to be added</span>
-        {% endif %}
+        <span class="field-label">Professional email</span>
+        <a class="field-value" href="mailto:{{ page.contact.email | escape }}">{{ page.contact.email | escape }}</a>
       </div>
+    {% endif %}
+    {% if page.contact.resume_url and page.contact.resume_url != "" %}
+      <div class="contact-field">
+        <span class="field-label">Résumé</span>
+        {% include site-link.html url=page.contact.resume_url label="View résumé" class="field-value" %}
+      </div>
+    {% endif %}
+    {% for project in page.contact.project_links %}
+      {% if project.url and project.url != "" %}
+        <div class="contact-field">
+          <span class="field-label">{{ project.label | escape }}</span>
+          {% assign project_link_label = 'Visit ' | append: project.label %}
+          {% include site-link.html url=project.url label=project_link_label class="field-value" %}
+        </div>
+      {% endif %}
     {% endfor %}
   </div>
 </section>
