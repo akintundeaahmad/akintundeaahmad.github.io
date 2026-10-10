@@ -1,0 +1,26 @@
+title: Akintunde Ahmad
+description: Entrepreneur, marketer, and storyteller building brands, businesses, and stories that connect people and create opportunity.
+url: "https://akintundeaahmad.github.io"
+baseurl: ""
+lang: en-US
+timezone: America/Los_Angeles
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - PLAN.md
+  - Gemfile
+  - Gemfile.lock
+  - attached_assets
+  - node_modules
+  - vendor
+  - generated-artifacts
+  - .local
+  - .cache
+  - .agents
+  - .config
+

@@ -1,0 +1,2 @@
+- [Portfolio publishing rules](portfolio-publishing.md) — Jekyll source must stay at the repository root; no framework app or public résumé without approval.
+- [Jekyll preview watching](jekyll-preview.md) — explicitly exclude host-generated logs from watching to prevent continuous rebuilds.

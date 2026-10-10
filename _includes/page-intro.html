@@ -1,0 +1,5 @@
+<section class="page-intro content-width">
+  <p class="section-label">{{ page.eyebrow | default: page.title | escape }}</p>
+  <h1>{{ page.heading | escape }}<br><span class="accent-text">{{ page.heading_accent | escape }}</span></h1>
+  {% if page.lede %}<p class="page-lede">{{ page.lede | escape }}</p>{% endif %}
+</section>

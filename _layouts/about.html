@@ -1,0 +1,26 @@
+---
+layout: default
+---
+{% include page-intro.html %}
+<section class="about-story content-width">
+  <div class="aside-label"><span class="aside-rule"></span><p class="section-label">How I work</p></div>
+  <div class="prose">{{ content }}</div>
+</section>
+<section class="capabilities-band">
+  <div class="content-width capabilities-grid">
+    <p class="section-label">Capabilities</p>
+    <div class="capability-list">{% for capability in page.capabilities %}<span>{{ capability | escape }}</span>{% endfor %}</div>
+  </div>
+</section>
+<section class="education-section content-width">
+  <div class="section-heading"><div><p class="section-label">Education & recognition</p><h2>Learning as<br><span class="muted-text">a practice.</span></h2></div></div>
+  <div class="education-list">
+    {% for school in page.education %}
+      <article class="education-row">
+        <div class="education-years">{{ school.date | escape }}</div>
+        <div class="education-main"><h3>{{ school.name | escape }}</h3><p>{{ school.degree | escape }}</p><p class="education-note">{{ school.details | escape }}</p></div>
+      </article>
+    {% endfor %}
+  </div>
+  <p class="recognition-note"><span class="status-dot" aria-hidden="true"></span> {{ page.recognition | escape }}</p>
+</section>

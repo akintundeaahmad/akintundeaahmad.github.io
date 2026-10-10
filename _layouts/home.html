@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<section class="home-hero content-width" aria-labelledby="home-title">
+  <div class="hero-eyebrow"><span class="status-dot" aria-hidden="true"></span> {{ page.location | escape }}</div>
+  <h1 id="home-title">{% for line in page.headline %}{% if forloop.last %}<span class="accent-text">{{ line | escape }}</span>{% else %}{{ line | escape }}<br>{% endif %}{% endfor %}</h1>
+  <p class="hero-intro">{{ page.lede | escape }}</p>
+  <div class="hero-actions">
+    <a class="button-link" href="{{ '/work/' | relative_url }}">View selected work <span aria-hidden="true">↗</span></a>
+    <a class="text-link" href="{{ '/contact/' | relative_url }}">Get in touch <span aria-hidden="true">↗</span></a>
+  </div>
+</section>
+<section class="intro-band">
+  <div class="content-width intro-grid">
+    <p class="section-label">Profile</p>
+    <div>
+      <div class="body-copy">{{ content }}</div>
+      <a class="text-link" href="{{ '/about/' | relative_url }}">About Akintunde <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>
+<section class="selected-work content-width" aria-labelledby="selected-title">
+  <div class="section-heading">
+    <div><p class="section-label">Selected work</p><h2 id="selected-title">Experience & projects</h2></div>
+  </div>
+  <div class="work-preview-grid">
+    {% for item in page.selected_work %}
+      <a class="work-preview" href="{{ item.url | relative_url }}">
+        <span class="preview-number">{{ forloop.index | prepend: "0" }} / {{ item.category | escape }}</span>
+        <span class="preview-copy"><span class="preview-title">{{ item.title | escape }}</span><span class="preview-detail">{{ item.description | escape }}</span></span>
+        <span class="preview-arrow" aria-hidden="true">↗</span>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+<section class="home-contact content-width">
+  <p class="section-label">Interested in working together?</p>
+  <a class="text-link" href="{{ '/contact/' | relative_url }}">Let’s connect <span aria-hidden="true">↗</span></a>
+</section>
