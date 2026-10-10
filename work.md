@@ -110,8 +110,6 @@ Summer 2026
 
 My experience at ServiceNow expanded my background into enterprise technology marketing, complementing my work building consumer brands and communicating the value of entrepreneurial programs.
 
-> **Future case-study placeholder:** Add approved project details and outcomes here.
-
 ## Journalism, Documentary Film & Audio
 
 My journalism examines education, economic inequality, justice, and whose perspectives shape public narratives. My work has appeared in *The Atlantic*, *The Guardian*, *The Appeal*, and *Columbia Journalism Review*.

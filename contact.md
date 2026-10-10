@@ -19,4 +19,4 @@ contact:
       url: https://adedehye.com/
 ---
 
-I keep my email off this public page. You can connect with me on LinkedIn.
+You can connect with me on LinkedIn.

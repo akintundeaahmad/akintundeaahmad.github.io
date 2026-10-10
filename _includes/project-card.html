@@ -1,25 +1,18 @@
 <article class="project-card">
   {% if project.image and project.image != "" %}
     <img class="project-image" src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" width="960" height="540" loading="lazy">
-  {% else %}
-    <div class="project-image" role="img" aria-label="Image placeholder for {{ project.title | escape }}">
-      <span class="image-placeholder-label">Image placeholder · add approved media</span>
-      <span class="image-index">{{ forloop.index | prepend: "0" }}</span>
-    </div>
   {% endif %}
   <div class="project-card-copy">
     <p class="project-type">{{ project.type | escape }}</p>
     <h3>{{ project.title | escape }}</h3>
     {% if project.synopsis and project.synopsis != "" %}
       <p>{{ project.synopsis | escape }}</p>
-    {% else %}
-      <p class="field-placeholder">Synopsis placeholder · add approved description.</p>
     {% endif %}
-    <p class="project-role"><strong>Role</strong> {% if project.role and project.role != "" %}{{ project.role | escape }}{% else %}Role placeholder · add details.{% endif %}</p>
+    {% if project.role and project.role != "" %}
+      <p class="project-role"><strong>Role</strong> {{ project.role | escape }}</p>
+    {% endif %}
     {% if project.url and project.url != "" %}
       {% include site-link.html url=project.url label=project.link_label class="text-link" %}
-    {% else %}
-      <span class="placeholder-link">{{ project.link_label | escape }} link placeholder · to be added</span>
     {% endif %}
   </div>
 </article>
