@@ -14,9 +14,9 @@ contact:
   resume_url: ""
   project_links:
     - label: Kinfolx
-      url: ""
+      url: https://kinfolxoakland.com/
     - label: Ade Dehye
-      url: ""
+      url: https://adedehye.com/
 ---
 
 I keep my email off this public page. You can connect with me on LinkedIn.

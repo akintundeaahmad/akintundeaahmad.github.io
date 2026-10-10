@@ -62,5 +62,5 @@ All four pages were checked at 375px and 1280px with no horizontal overflow. Loc
 - Jekyll and the `github-pages` gem match GitHub Pages’ supported build environment; `jekyll-sitemap` generates the sitemap.
 - The GitHub username is exactly `akintundeaahmad`, as supplied.
 - Where the résumé and portfolio text differ, the portfolio text takes priority—particularly Ade Dehye’s February 2021 founding date.
-- No headshot, project image, approved ServiceNow case-study detail, public résumé, or project website URL was supplied. These remain explicit placeholders rather than fabricated content.
+- The five film/audio project links and the Kinfolx and Ade Dehye website links use the supplied destinations. No headshot, project image, approved ServiceNow case-study detail, or public résumé was supplied in this version. Missing details remain explicit placeholders rather than fabricated content.
 

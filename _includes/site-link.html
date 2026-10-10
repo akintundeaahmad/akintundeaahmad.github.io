@@ -1,0 +1,6 @@
+{% assign link_prefix = include.url | slice: 0, 2 %}
+{% if include.url contains '://' or link_prefix == '//' %}
+  <a class="{{ include.class | default: 'text-link' | escape }}" href="{{ include.url | escape }}" target="_blank" rel="noopener noreferrer">{{ include.label | escape }} <span aria-hidden="true">↗</span></a>
+{% else %}
+  <a class="{{ include.class | default: 'text-link' | escape }}" href="{{ include.url | relative_url | escape }}">{{ include.label | escape }} <span aria-hidden="true">↗</span></a>
+{% endif %}

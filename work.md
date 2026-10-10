@@ -15,40 +15,40 @@ projects:
     role: Associate producer
     image: ""
     image_alt: ""
-    url: ""
-    link_label: Viewing
+    url: https://www.hulu.com/movie/anthem-6b25fac9-da2b-45a3-8e09-e4156b0471cc
+    link_label: Watch Anthem on Hulu
   - title: "Revolutionary Care: An Oakland Story"
     type: Storytelling
     synopsis: Exploring sickle-cell disease and care in Oakland.
     role: Reporting, interviews, scripting, story development, and narration
     image: ""
     image_alt: ""
-    url: ""
-    link_label: Viewing or listening
+    url: https://give.ucsfbenioffchildrens.org/stories/revolutionary-care-oakland-story-podcast
+    link_label: Listen to Revolutionary Care
   - title: Viewers Like Us
     type: Audio / investigative reporting
     synopsis: Examining diversity and representation in public television.
     role: Investigative reporting and co-hosting
     image: ""
     image_alt: ""
-    url: ""
-    link_label: Listening
+    url: https://viewerslikeus.com/
+    link_label: Explore Viewers Like Us
   - title: A Right To Heal
     type: Investigative journalism
     synopsis: ""
     role: Investigative journalism and hosting
     image: ""
     image_alt: ""
-    url: ""
-    link_label: Viewing or listening
+    url: https://podcasts.apple.com/us/podcast/a-right-to-heal/id1707626036
+    link_label: Listen to A Right To Heal
   - title: Hear Us Out
     type: Documentary thesis film
     synopsis: Documentary thesis film completed at Columbia Journalism School.
     role: ""
     image: ""
     image_alt: ""
-    url: ""
-    link_label: Viewing
+    url: "https://vimeo.com/378389873/f68ff036ba?fl=pl&fe=vl"
+    link_label: Watch Hear Us Out on Vimeo
 ---
 
 ## ESO Ventures

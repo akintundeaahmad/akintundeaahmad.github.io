@@ -24,7 +24,7 @@ layout: default
     <div class="contact-field">
       <span class="field-label">Résumé</span>
       {% if page.contact.resume_url and page.contact.resume_url != "" %}
-        <a class="field-value" href="{{ page.contact.resume_url | relative_url }}">View résumé <span aria-hidden="true">↗</span></a>
+        {% include site-link.html url=page.contact.resume_url label="View résumé" class="field-value" %}
       {% else %}
         <span class="field-value field-placeholder">Résumé link placeholder · to be added</span>
       {% endif %}
@@ -33,7 +33,8 @@ layout: default
       <div class="contact-field">
         <span class="field-label">{{ project.label | escape }}</span>
         {% if project.url and project.url != "" %}
-          <a class="field-value" href="{{ project.url }}" target="_blank" rel="noopener noreferrer">Visit project <span aria-hidden="true">↗</span></a>
+          {% assign project_link_label = 'Visit ' | append: project.label %}
+          {% include site-link.html url=project.url label=project_link_label class="field-value" %}
         {% else %}
           <span class="field-value field-placeholder">Project link placeholder · to be added</span>
         {% endif %}
